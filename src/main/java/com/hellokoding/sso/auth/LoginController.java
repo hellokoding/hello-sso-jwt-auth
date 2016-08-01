@@ -16,8 +16,8 @@ public class LoginController {
     private static final Map<String, String> credentials = new HashMap<>();
 
     public LoginController() {
-        credentials.put("tom", "hellokoding");
-        credentials.put("jerry", "hellokoding");
+        credentials.put("hellokoding", "hellokoding");
+        credentials.put("hellosso", "hellosso");
     }
 
     @RequestMapping("/")
