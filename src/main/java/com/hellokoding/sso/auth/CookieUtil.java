@@ -25,7 +25,7 @@ public class CookieUtil {
         httpServletResponse.addCookie(cookie);
     }
 
-    public static String get(HttpServletRequest httpServletRequest, String name) {
+    public static String getValue(HttpServletRequest httpServletRequest, String name) {
         Cookie cookie = WebUtils.getCookie(httpServletRequest, name);
         return cookie != null ? cookie.getValue() : null;
     }
