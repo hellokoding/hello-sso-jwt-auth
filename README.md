@@ -13,8 +13,6 @@ https://hellokoding.com/hello-single-sign-on-sso-with-json-web-token-jwt-spring-
 - FreeMarker
 
 ## Run
-Find Resource Service [here](https://github.com/hellokoding/hello-sso-jwt-resource)
-
 - Run Authentication Service: `mvn spring-boot:run`
-- Run Resource Service 1: `mvn spring-boot:run -Dserver.port=8180`
+- Run [Resource Service](https://github.com/hellokoding/hello-sso-jwt-resource) 1: `mvn spring-boot:run -Dserver.port=8180`
 - Run Resource Service 2: `mvn spring-boot:run -Dserver.port=8280`
